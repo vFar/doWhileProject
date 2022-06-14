@@ -14,7 +14,7 @@ int main() {
   sleep(4);
   */
   system("clear");
-  /*
+  
     cout<<"Jautājumā ir 3 pareizas atbildes un atbildes formāts: A;B;C, B;C;A u.c.!\n\n\n";
     cout<<"1. Kurš nav cikls?\n\n\n";
     cout<<"\tA: SWITCH \t\t B: IF\n";
@@ -89,15 +89,53 @@ int main() {
     cout<<"\tD: Kods, kas programmēšanā neeksistē\n\n";
     cin>>answer;
 
-    if(answer == "A;B;C" || answer == "A;C;B" || answer ==       "C;B;A" || answer == "B;A;C" || answer == "B;C;A"){
+    if(answer == "A;B;D" || answer == "B;A;D" || answer ==       "D;A;B" || answer == "A;D;B" || answer == "B;D;A" || answer == "D;B;A"){
       points++;
     }else{
       wrong[4] = "5. Kuri apgalvojumi nav patiesi par cikliem programmēšanā?";
     }
 
     system("clear");
-    */
     
+    cout<<"Jautājumā ir 3 pareizas atbildes un atbildes formāts: A;B;C, B;C;A u.c.!\n\n\n";
+    cout<<"6. Tiek dota koda daļa, kurā kodu rindā tika pieļautas kļūdas?\n\n\n";
+    cout<<"\t1 \t\tString valsts;\n";
+    cout<<"\t2\n";
+    cout<<"\t3\n";
+    cout<<"\t4 \t\tdo{\n";
+    cout<<"\t5 \t\t  cout<<Kura ir vislielākā valsts Eiropā?\n";
+    cout<<"\t6 \t\t  cin>>valsts;\n";
+    cout<<"\t7 \t\t}while(valsts != Ukraina)\n\n";
+    
+    cout<<"\tA: 8\n";
+    cout<<"\tB: 1\n";
+    cout<<"\tC: 5\n";
+    cout<<"\tD: 6\n\n";
+    cin>>answer;
+
+    
+    if(answer == "B;C;D" || answer == "C;B;D" || answer ==       "D;B;C" || answer == "B;D;C" || answer == "C;D;B" || answer == "D;C;B"){
+      points++;
+    }else{
+      wrong[5] = "6. Tiek dota koda daļa, kurā kodu rindā tika pieļautas kļūdas?";
+    }
+    
+    system("clear");
+    
+   cout<<"Jautājumā ir 2 pareizas atbildes un atbildes formāts: C;A, B;D u.c.!\n\n\n";
+    cout<<"7. Tikai īsts programmētājs zinās, kuru ciklu lietot ja nav zināms atkārtošanās skaits\n\n\n";
+    cout<<"\tA: WHILE \t\t B: REPEAT UNTIL\n";
+    cout<<"\tC: DO-WHILE \t\t D: FOR\n\n";
+    cin>>answer;
+
+    
+    if(answer == "A;C" || answer == "C;A"){
+      points++;
+    }else{
+      wrong[6] = "7. Tikai īsts programmētājs zinās, kuru ciklu lietot ja nav zināms atkārtošanās skaits";
+    }
+    
+    system("clear");
   
   
     sort(begin(wrong), end(wrong));
