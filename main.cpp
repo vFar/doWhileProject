@@ -10,15 +10,16 @@ int main() {
   
   cout<<"DO-WHILE tests\n";
   cout<<"Tests satur 10 jautājumus, kurā katram jautājumam ir 4 atbilžu varianti!\n";
-  /*
+  
   sleep(4);
-  */
+  
+  
   system("clear");
   
     cout<<"Jautājumā ir 3 pareizas atbildes un atbildes formāts: A;B;C, B;C;A u.c.!\n\n\n";
-    cout<<"1. Kurš nav cikls?\n\n\n";
+    cout<<"1. Kurš no atbilžu variantiem nav cikls?\n\n\n";
     cout<<"\tA: SWITCH \t\t B: IF\n";
-    cout<<"\tC: STRING \t\t D: FOR\n\n";
+    cout<<"\tC: STRING \t\t D: WHILE\n\n";
     cin>>answer;
     
     if(answer == "A;B;C" || answer == "A;C;B" || answer ==       "C;B;A" || answer == "B;A;C" || answer == "B;C;A"){
@@ -30,7 +31,7 @@ int main() {
     system("clear");
 
     cout<<"Jautājumā ir 2 pareizas atbildes un atbildes formāts: D;C, A;B, C;A u.c.!\n\n\n";
-    cout<<"2. Kurš apgalvojums ir patiess par DO-WHILE ciklu?\n\n\n";
+    cout<<"2. Kuri apgalvojumi ir patiesi par DO-WHILE ciklu?\n\n\n";
     cout<<"\tA: Cikls nostrādās vienu reizi \n\tB: Nenostrādās nevienu reizi\n";
     cout<<"\tC: Lēns cikls\n\tD: Cikls ir exit-controlled loop\n\n";
     cin>>answer;
@@ -79,7 +80,7 @@ int main() {
     }else{
       wrong[3] = "4. Kuri pierakstu veidi ciklam ir nepareizi?";
     }
-
+    system("clear");
     
     cout<<"Jautājumā ir 3 pareizas atbildes un atbildes formāts: A;B;C, B;C;A u.c.!\n\n\n";
     cout<<"5. Kuri apgalvojumi nav patiesi par cikliem programmēšanā?\n\n\n";
@@ -125,7 +126,7 @@ int main() {
    cout<<"Jautājumā ir 2 pareizas atbildes un atbildes formāts: C;A, B;D u.c.!\n\n\n";
     cout<<"7. Tikai īsts programmētājs zinās, kuru ciklu lietot ja nav zināms atkārtošanās skaits\n\n\n";
     cout<<"\tA: WHILE \t\t B: REPEAT UNTIL\n";
-    cout<<"\tC: DO-WHILE \t\t D: FOR\n\n";
+    cout<<"\tC: DO-WHILE \t D: FOR\n\n";
     cin>>answer;
 
     
@@ -136,9 +137,60 @@ int main() {
     }
     
     system("clear");
+    
+    
+   cout<<"Jautājumā ir 2 pareizas atbildes un atbildes formāts: C;A, B;D u.c.!\n\n\n";
+    cout<<"8. Boolean tipa loģika ir svarīga priekš cikliem, bet kāpēc?\n\n\n";
+  cout<<"\tA: Laba koda optimizācija\n";
+    cout<<"\tB: Pašlaik vienīgais veids, kā likt ciklam strādāt pēc nosacījuma robežām\n";
+    cout<<"\tC: Tas padara ciklu bezgalīgu\n";
+    cout<<"\tD: Boolean stipri saistās un labi sadarbojas ar bināro sistēmu\n\n";
+    cin>>answer;
+
+    
+    if(answer == "B;D" || answer == "D;B"){
+      points++;
+    }else{
+      wrong[7] = "8. Boolean tipa loģika ir svarīga priekš cikliem, bet kāpēc?";
+    }
+    
+    system("clear");
+
+    cout<<"Jautājumā ir 3 pareizas atbildes un atbildes formāts: B;C;A, D;C;A u.c.!\n\n\n";
+    cout<<"9. Programmēšanā, kas nav sinonīms vārdam :cikls:?\n\n\n";
+  cout<<"\tA: Atlase(selection)\n";
+    cout<<"\tB: Mašīnmācīšanās(machine learning)\n";
+    cout<<"\tC: Iterācija(Iteration)\n";
+    cout<<"\tD: Procedūras valoda(Procedural language)\n\n";
+    cin>>answer;
+
+    if(answer == "A;B;D" || answer == "B;A;D" || answer == "D;A;B" || answer == "A;D;B" || answer == "B;D;A" || answer == "D;B;A"){
+      points++;
+    }else{
+      wrong[8] = "9. Programmēšanā, kas nav sinonīms vārdam :cikls:?";
+    }
+    
+    system("clear");
+
+    cout<<"Jautājumā ir 3 pareizas atbildes un atbildes formāts: B;C;A, D;C;A u.c.!\n\n\n";
+    cout<<"10. Kāpēc DO-WHILE cikls tiek izmantots? Ar ko tas atšķiras no citiem cikliem?\n\n\n";
+  cout<<"\tA: Lieto, lai veiktu iterāciju\n";
+    cout<<"\tB: Lieto, lai vismaz vienu reizi iedarbināt ciklu\n";
+    cout<<"\tC: Lieto, kad atkārtošanās skaits nav zināms\n";
+    cout<<"\tD: Lietojams, lai rakstītu vairāk jeb labāku lasāmu kodu\n\n";
+    cin>>answer;
   
+    if(answer == "B;C;D" || answer == "C;B;D" || answer == "D;B;C" || answer == "B;D;C" || answer == "C;D;B" || answer == "D;C;B"){
+      points++;
+    }else{
+      wrong[9] = "10. Kāpēc DO-WHILE cikls tiek izmantots? Ar ko tas atšķiras no citiem cikliem?";
+    }
+
+    
   
     sort(begin(wrong), end(wrong));
+    cout<<"Pareizi atbildēts: "<<points<<"/10\n\n";
+    cout<<"Nepareizi atbildētu jautājumi: \n\n";
     for(int i=0; i<10; i++){
       cout<<wrong[i]<<"\n";
     }
