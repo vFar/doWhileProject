@@ -9,13 +9,13 @@ Neliels informatīvs projekts, kas gādātu pamata zināšanas par **Do While ci
 
 - [x] Iesākt veidot nepieciešamos projekta failus priekš **Do While** cikla projekta (GitHub repository, PowerPoint prezentācijas, Excel fails)
 
-- [x] Izstrādāt informatīvu mācību materiālu (prezentācija) par ciklu
+- [x] Izveidot informatīvu mācību materiālu (prezentācija) par ciklu
 
 - [x] Izveidot 5 programmu kodu piemērus pielietojot **Do While** ciklu
 
-- [] Izveidot elektronisko testu iekš repl.it izstrādes vides
+- [x] Izveidot elektronisko testu iekš repl.it izstrādes vides
 
-- [] Programmā Microsoft Excel, izstrādāt **testēšanas dokumentāciju** (testpiemēri, apraksts, žurnāls u.c.)
+- [] Programmā Microsoft Excel, izveidot **testēšanas dokumentāciju** (testpiemēri, apraksts, žurnāls u.c.)
 
 - [] Izvietot jeb _pushot_ projekta failus uz GitHub
 
