@@ -2,6 +2,9 @@
 
 ![image](https://user-images.githubusercontent.com/98739084/172692261-b7bc41f6-1cd4-42f8-9365-1fc60973438a.png)
 
+2 minūšu video pamācība kā augšupielādēt GitHub projektu (repository) iekš repl.it izstrādes vides!
+[![tutorial](https://www.youtube.com/watch?v=679M3E9UiBY)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+
 
 Neliels informatīvs projekts, kas gādātu pamata zināšanas par **Do While ciklu un C++ programmēšanas valodu**
 
