@@ -15,10 +15,10 @@ Neliels informatīvs projekts, kas gādātu pamata zināšanas par **Do While ci
 
 - [x] Izveidot elektronisko testu iekš repl.it izstrādes vides
 
-- [] Programmā Microsoft Excel, izveidot **testēšanas dokumentāciju** (testpiemēri, apraksts, žurnāls u.c.)
+- [x] Programmā Microsoft Excel, izveidot **testēšanas dokumentāciju** (testpiemēri, apraksts, žurnāls u.c.)
 
-- [] Izvietot jeb _pushot_ projekta failus uz GitHub
+- [x] Izvietot jeb _pushot_ projekta failus uz GitHub
 
-- [] Izveidot Microsoft PowerPoint prezentāciju par visa projekta kopsavilkumu, secinājumi jeb informācijas apkopojumu
+- [x] Izveidot Microsoft PowerPoint prezentāciju par visa projekta kopsavilkumu, secinājumi jeb informācijas apkopojumu
 
-- [] Veikt pielabojumus un iesūtīt skolotājam e-klase pastā
+- [x] Veikt pielabojumus un iesūtīt skolotājam e-klase pastā
